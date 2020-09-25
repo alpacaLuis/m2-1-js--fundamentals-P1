@@ -6,6 +6,14 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+  let divisor = 2
+
+  for (let number = 1; number <= 50; number++) {
+    if(number % divisor === 0){ // even
+      console.log(number)
+    }
+    }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

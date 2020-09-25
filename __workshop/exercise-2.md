@@ -52,7 +52,13 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+let sentence = "Hello World";
+
+if(sentence.includes('Hello')){
+    console.log('Sentence DOES contain the word Hello')
+} else {
+    console.log('Sentence DOES NOT contain the word Hello')
+}
 
 ```
 
@@ -65,7 +71,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-// Your solution here!
+let array = ["firstIndex",["secondIndexOne", "thirdIndexTwo"]]
+
+console.log (array[0])
+console.log (array[1][0])
+console.log (array[1][1])
+
 
 ```
 
@@ -79,7 +90,8 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. }
 
 ```
-// Your solution here!
+for (let currentNum = 10; currentNum > 6; currentNum-- ){
+console.log (currentNum)}
 
 ```
 
@@ -94,7 +106,8 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. const reversedString = reversedArray.join('');
 
 ```
-// Your solution here!
+
+
 
 ```
 
@@ -109,13 +122,20 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. }
 
 ```
-// Your solution here!
+
+for (let count= 0 ; count < 11 ; count++){
+    console.log(count)
+}
+let total = 0 + count;
+
+console.log(total)
+
 
 ```
 
 ## Question 6: Check if the array includes a specific number
 
-1. }
+1. 
 2. let includesNumber;
 3. console.log('Array includes the number!')
 4. for (let i = 0; i < array.length; i++) {
